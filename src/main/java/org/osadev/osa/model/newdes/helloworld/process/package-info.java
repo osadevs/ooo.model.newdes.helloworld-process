@@ -5,7 +5,7 @@
  * <p>In this package version we illustrate the simulation features provided
  * by the OSA extension to Fractal. 
  * 
- * @see Package {@link fr.inria.osa.model.basic.helloworld}  for a simpler 
+ * @see org.osadev.osa.model.newdes.helloworld-event  for a simpler 
  * example using OSA's event-driven modeling API
  * 
  */
