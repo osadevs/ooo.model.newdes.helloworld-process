@@ -18,7 +18,9 @@ OSA is composed of multiples, possibly many, maven sub-projects. However to allo
 
 ## About this module
 
-This module is a common root for the basic model examples. It does not contain any code.
+This module is an example based on [Fractal's](http://fractal.ow2.org/) hello-world example that demonstrates OSA process-oriented API: two components are created, one client and one server. 
+The client calls the server's printing service. In the original Fractal example, the printing service simply outputs "Hello world". 
+In our example, various OSA synchronization primitives are used to force the client and server side to wait, either for a fixed delay, or for a given condition, with or without a time guard. This example also demonstrates the channel capability of the synchronization primitive (the ability for the thread that unblocks another on to transmit some data at the same time).
 
 ## Usage
 
